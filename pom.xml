@@ -21,6 +21,8 @@
 		<maven.compiler.release>8</maven.compiler.release>
 		<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
 		<sonar.coverage.jacoco.xmlReportPaths>${project.basedir}/../coverage/target/site/jacoco-aggregate-all/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+		<sonar.projectKey>tests-report-jenkins</sonar.projectKey>
+  		<sonar.host.url>https://sonarqube.saas.srvex.com.br</sonar.host.url>
 		<sonar.sources>src/main/</sonar.sources>
 		<sonar.tests>src/test/</sonar.tests>
 		<sonar.java.binaries>target/classes</sonar.java.binaries>
